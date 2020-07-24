@@ -1,0 +1,87 @@
+
+.insomnia{
+
+  .wrapper-insomnia{
+    height: auto;
+    width: 100%;
+    font-family: $primary-font;
+    font-size: 18px;    
+    padding: 30px;
+    line-height: 30px;
+    
+      @media all and (min-width:768px){
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 60px;
+      }
+      @media all and (min-width:1200px){
+      padding-left: 275px;
+      padding-right: 275px;
+      padding-top: 60px;
+      padding-bottom: inherit;
+      }
+
+    .h2{
+      font-family: $secondary-font;
+      font-size: 24px;
+      color: $font-color;
+      text-transform: capitalize;
+
+      @media all and (min-width:768px){
+        font-size: 26px;
+        line-height: 45px;
+      }
+      @media all and (min-width:1200px){
+        font-size: 32px;
+      }
+    }
+
+    .span{
+      width: 90px;
+      height: 30px;      
+      font-size: 14px;
+      color:$paragraph-color;
+      text-transform: capitalize;
+
+      @media all and (min-width:1200px){
+        font-size: 16px;
+      }          
+    }
+
+    .p{
+      padding-top: 15px;
+      color:#4a4a4a;
+      @media all and (min-width:768px){
+        padding-top: 30px;
+        font-size: 20px;
+      }      
+    }
+  }  
+}
+
+.button-go{
+  width: 76px;
+  height: 45px;
+  color:$tertiary-color;
+  background-color: $light-color;
+  border-radius: 22.5px;
+  border: 2px solid $tertiary-color;
+  font-family: $primary-font;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  transition: color ease 0.3s, border ease 0.3s, background-color ease 0.3s, width ease 1s;
+  &:hover{
+    color: $light-color;
+    background-color:$tertiary-color;
+    width: 85px;
+  }
+    @media all and (min-width:768px){
+      width: 91px;
+      margin-bottom: 0px;
+      margin-top: 30px;
+    }
+    @media all and (min-width:1200px){
+    width: 160px;
+    }  
+}

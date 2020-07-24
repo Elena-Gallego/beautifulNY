@@ -1,0 +1,91 @@
+
+
+.hero{
+  background-image: url(../../assets/images/cover.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center top;
+  text-align: center;
+  color: $light-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+.claim-wrapper{ 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  padding-bottom: 53px;
+    
+    @media all and (min-width:768px){
+      padding-bottom: 45px;
+    }
+      
+    @media all and (min-width:1200px){
+      padding-bottom: 13px;
+    }
+  .claim-title{
+    font-size: 42px;
+    font-family: $secondary-font;
+    text-transform: uppercase;
+    line-height: normal;
+    display:flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+                    
+      @media all and (min-width:768px){
+        font-size: 80px;
+        letter-spacing: 0.5px;
+            
+      }
+      @media all and (min-width:1200px){
+        font-size: 100px;
+            
+      }
+  }    
+  
+    .claim2{
+      font-size: 16px;
+      font-family: $primary-font;
+      font-style: normal;
+      font-stretch: normal;
+      font-weight: normal;
+
+        @media all and (min-width:768px){
+          font-size: 24px;
+                  
+        }
+        @media all and (min-width:1200px){
+          font-size: 24px;
+                
+        }
+    }
+ 
+    .button-arrow-down{
+      background-color: $light-color;
+      background-image:url(../../assets/images/ico-scroll-down.svg);
+      background-repeat: no-repeat;
+      background-position: center; 
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border-color: inherit;
+      margin-bottom: 0px;
+      position: relative;
+      display: flex;
+      margin-top: 45px;
+      transition: width ease 0.4s, height ease 0.4s;
+      &:hover{
+        width: 55px;   
+        height: 55px;   
+      } 
+    }  
+}

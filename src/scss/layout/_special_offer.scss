@@ -1,0 +1,26 @@
+.special-offer{
+  width: 100vw;
+  background: $tertiary-color;
+  color: $light-color;
+  font-family: $primary-font;
+  padding:30px;   
+  display: none;
+
+    .h2{      
+      margin-bottom: 20px;      
+      text-transform: capitalize;
+    }
+
+
+    @media all and (min-width:768px){
+      display: block;
+      .h3, p{
+        width: 50%;
+      }
+      
+      .special-article{
+        display:flex;
+        justify-content:space-between;
+      }
+    }
+}
