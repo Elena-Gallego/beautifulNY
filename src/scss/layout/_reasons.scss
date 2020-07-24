@@ -1,5 +1,3 @@
-
-
 .wrapper-reasons {
   background-color: #eff9ff;
   display: grid;
@@ -8,164 +6,154 @@
   text-align: center;
   font-size: 18px;
   font-family: $primary-font;
-  padding:15px;
+  padding: 15px;
   height: 100%;
   width: 100%;
   background-color: #eff9ff;
   padding-bottom: 60px;
-    @media all and (min-width:768px){
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      grid-template-rows: 100%, 80%, 10%;
-      font-size: inherit;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-    @media all and (min-width:1200px){
-      padding-left:85px;
-      padding-right:85px;
-      margin-top:60px;
-      grid-gap: 55px;
-    }  
-      
-  .reasons-h2{
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%, 80%, 10%;
+    font-size: inherit;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media all and (min-width: 1200px) {
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-top: 60px;
+    grid-gap: 55px;
+  }
+
+  .reasons-h2 {
     padding-top: 15px;
     font-family: $secondary-font;
-    font-size:24px;
+    font-size: 24px;
     text-transform: capitalize;
-      @media all and (min-width:768px){
-        padding-top: 30px;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 1;    
-        font-size: 26px;    
-      }
-      @media all and (min-width:1200px){
-        font-size: 32px;
-        padding-top: 60px;
-      }  
-  }
-  
-  .reason-one{
-    line-height: 35px;
-      @media all and (min-width:768px){
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 2;
-      } 
-      h4{
-        font-family: $secondary-font;
-        margin:auto;
-        @media all and (min-width:768px){
-          font-size: 24px; 
-
-        }
-      }
-
-      p{
-        margin:auto;      
-        padding-left: 50px;
-        padding-right: 50px;
-          @media all and (min-width:768px){
-            margin: inherit;
-            padding: inherit;
-            font-size:20px;
-          }
-      }        
-  }
-  .reason-two{
-    line-height: 35px;
-      @media all and (min-width:768px){
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 2;
-      }
-      h4{
-        font-family: $secondary-font;
-        margin:auto;
-        @media all and (min-width:768px){
-          font-size: 24px;
-          
-        }
-      }
-
-      p{
-        margin:auto;     
-        padding-left: 50px;
-        padding-right: 50px;
-          @media all and (min-width:768px){
-            margin: inherit;
-            padding: inherit;
-            font-size:20px;
-          }
-        
-      }
-      
+    @media all and (min-width: 768px) {
+      padding-top: 30px;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      font-size: 26px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 32px;
+      padding-top: 60px;
+    }
   }
 
-  .reason-three{
+  .reason-one {
     line-height: 35px;
-      @media all and (min-width:768px){
-        grid-column-start: 3;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 2;
+    @media all and (min-width: 768px) {
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+    h4 {
+      font-family: $secondary-font;
+      margin: auto;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
       }
-      h4{
-        font-family: $secondary-font;
-        margin:auto;
-        @media all and (min-width:768px){
-          font-size: 24px; 
+    }
 
-        }
-      } 
-      p{
-        margin: auto;    
-        padding-left: 50px;
-        padding-right: 50px;
-        @media all and (min-width:768px){
-          margin: inherit;
-          padding: inherit;
-          font-size:20px;
-        }
-      }     
+    p {
+      margin: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      @media all and (min-width: 768px) {
+        margin: inherit;
+        padding: inherit;
+        font-size: 20px;
+      }
+    }
+  }
+  .reason-two {
+    line-height: 35px;
+    @media all and (min-width: 768px) {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+    h4 {
+      font-family: $secondary-font;
+      margin: auto;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
+    }
+
+    p {
+      margin: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      @media all and (min-width: 768px) {
+        margin: inherit;
+        padding: inherit;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .reason-three {
+    line-height: 35px;
+    @media all and (min-width: 768px) {
+      grid-column-start: 3;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+    h4 {
+      font-family: $secondary-font;
+      margin: auto;
+      @media all and (min-width: 768px) {
+        font-size: 24px;
+      }
+    }
+    p {
+      margin: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      @media all and (min-width: 768px) {
+        margin: inherit;
+        padding: inherit;
+        font-size: 20px;
+      }
+    }
   }
 
   .button-reasons {
-    background: $tertiary-color; 
+    background: $tertiary-color;
     color: $light-color;
     text-align: center;
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
     text-transform: capitalize;
-    margin:auto;
+    margin: auto;
     padding-top: 13px;
-    transition: color ease 0.3s, border ease 0.3s, background-color ease 0.3s, width ease 0.3s;
-    
-    &:hover{
-      background-color:$light-color;
-      color:$tertiary-color;
-      border:$tertiary-color solid;     
+    transition: color ease 0.3s, border ease 0.3s, background-color ease 0.3s,
+      width ease 0.3s;
+
+    &:hover {
+      background-color: $light-color;
+      color: $tertiary-color;
+      border: $tertiary-color solid;
       width: 200px;
-    }            
-      @media all and (min-width:768px){   
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 3;
-      }      
-      @media all and (min-width:1200px){
-        width: 255px;
-       
-      }
-  } 
+    }
+    @media all and (min-width: 768px) {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 3;
+    }
+    @media all and (min-width: 1200px) {
+      width: 255px;
+    }
+  }
 }
-
-
-
-
-

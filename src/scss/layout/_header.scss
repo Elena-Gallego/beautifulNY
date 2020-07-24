@@ -8,21 +8,20 @@
     transform: scale(1);
     opacity: 1;
   }
-
 }
 .header {
   display: flex;
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
   animation-name: intro;
   animation-duration: 2s;
   z-index: 1;
 
-  .ico-menu-hamburguer{ 
+  .ico-menu-hamburguer {
     background: $primary-color;
     width: 44px;
     height: 44px;
-    padding:15px;   
+    padding: 15px;
   }
-}  
+}
