@@ -9,7 +9,7 @@ El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dad
 - Media queries.
 - Interacciones usando transiciones.
 
-\*Maquetación
+MAQUETACIÓN
 
 En primer lugar debéis realizar la maquetación sobre un diseño dado:
 
@@ -21,7 +21,7 @@ En primer lugar debéis realizar la maquetación sobre un diseño dado:
 4. Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla.
 5. Cuarto módulo (footer): maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
 
-\*Interacción:
+INTERACCIÓN
 
 En total, hay 3 interacciones que resolver:
 
