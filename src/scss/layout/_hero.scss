@@ -30,10 +30,10 @@
     padding-bottom: 13px;
   }
   .claim-title {
-    font-size: 42px;
+    font-size: 35px;
     font-family: $secondary-font;
     text-transform: uppercase;
-    line-height: normal;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -48,11 +48,12 @@
   }
 
   .claim2 {
-    font-size: 16px;
+    margin-top: 15px;
+    font-size: 14px;
     font-family: $primary-font;
     font-style: normal;
     font-stretch: normal;
-    font-weight: normal;
+    font-weight: 300;
 
     @media all and (min-width: 768px) {
       font-size: 24px;

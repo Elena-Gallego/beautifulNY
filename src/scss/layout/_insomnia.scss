@@ -22,6 +22,7 @@
     .h2 {
       font-family: $secondary-font;
       font-size: 24px;
+      font-weight: 400;
       color: $font-color;
       text-transform: capitalize;
 
@@ -38,6 +39,7 @@
       width: 90px;
       height: 30px;
       font-size: 14px;
+      font-weight: 300;
       color: $paragraph-color;
       text-transform: capitalize;
 
@@ -48,6 +50,7 @@
 
     .p {
       padding-top: 15px;
+      font-weight: 300;
       color: #4a4a4a;
       @media all and (min-width: 768px) {
         padding-top: 30px;

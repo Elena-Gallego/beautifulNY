@@ -11,17 +11,30 @@
 }
 .header {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   position: fixed;
-  top: 0;
-  left: 0;
   animation-name: intro;
   animation-duration: 2s;
   z-index: 1;
 
   .ico-menu-hamburguer {
-    background: $primary-color;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px white solid;
+    margin: 5px;
+    background: #527393;
     width: 44px;
     height: 44px;
     padding: 15px;
+
+    @media all and (min-width: 768px) {
+      width: 55px;
+      height: 55px;
+    }
   }
 }
